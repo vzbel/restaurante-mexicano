@@ -1,6 +1,6 @@
 function Nav(){
     return (
-        <nav className="flex flex-col md:flex-row gap-4 items-center flex-wrap justify-center md:justify-between px-24 sticky top-0 w-screen font-mono font-semibold text-xl min-h-32">
+        <nav className="flex flex-col md:flex-row gap-4 items-center flex-wrap justify-center md:justify-between px-24 sticky top-0 w-screen font-mono font-semibold text-xl min-h-32 bg-amber-100">
             {/* Nav Links UL*/}
             <ul className="flex gap-7">
                 <li><a href="">ABOUT</a></li>
