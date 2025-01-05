@@ -1,5 +1,4 @@
 import ItemCard from "./ItemCard";
-import "./Favorites.css"
 
 function Favorites(){
     return (
