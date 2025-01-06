@@ -6,6 +6,7 @@ import Nav from './Nav'
 import Hero from './Hero'
 import Testimonial from './Testimonial'
 import Favorites from './Favorites'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Testimonial />
       <Favorites />
+      <Footer />
     </>
   );
 }
