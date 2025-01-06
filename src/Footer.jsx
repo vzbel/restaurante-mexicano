@@ -4,7 +4,7 @@ import MailingList from './MailingList'
 function Footer(){
     return (
         <footer className="bg-lime-950 p-10">
-            <div className="p-2 flex flex-col md:flex-row gap-10 flex-wrap justify-center">
+            <div className="p-2 flex flex-col md:flex-row gap-10 flex-wrap justify-center" id="locations">
                 <MailingList />
                 <Location 
                 name="CENTRAL AREA"

@@ -6,7 +6,9 @@ function Hero(){
                 <div className="max-w-xl flex-1 font-serif p-5 md:p-0">
                     <h1 className="text-6xl md:text-8xl mb-5 max-w-sm">Sabor Mexicano</h1>
                     <p className="text-lg md:text-2xl mb-5 text-lime-800">Bienvenidos a Sabor Mexicano, donde cada plato cuenta una historia de tradición y pasión. Aquí celebramos los auténticos sabores de México con recetas que combinan ingredientes frescos y técnicas tradicionales.</p>
-                    <button className="text-2xl md:text-3xl bg-lime-800 text-yellow-50 py-3 px-12 rounded-md">Menu</button>
+                    <a href="#locations">
+                        <button className="text-2xl md:text-3xl bg-lime-800 text-yellow-50 py-3 px-12 rounded-md">Menu</button>
+                    </a>
                 </div>
             </div>
         </section>
